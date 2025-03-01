@@ -15,7 +15,7 @@ payload = {
 }
 
 headers = {
-    "Authorization": "Bearer sk-geoxrhltgamdczziqtiojkubhewxkcxbmdlhtrvxmaktplhh",
+    "Authorization": "Bearer fobidden",
     "Content-Type": "application/json"
 }
 
