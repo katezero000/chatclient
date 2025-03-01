@@ -29,6 +29,6 @@ jobs:
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &  # 启动虚拟显示服务器
           export DISPLAY=:99  # 设置显示变量
-          python chatbot.py &  # 运行 Tkinter GUI
+          python main.py &  # 运行 Tkinter GUI
           sleep 10  # 让 GUI 运行 10 秒
-          pkill -f chatbot.py  # 关闭 Tkinter 进程
+          pkill -f main.py  # 关闭 Tkinter 进程
